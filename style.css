@@ -1,0 +1,114 @@
+/* body {
+    padding: 0;
+    margin: 0;
+    background-image: url('./images/rosemary-bg.png');
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    background-position: 100px 100px, 150px 150px;
+} */
+
+body {
+    background-color: olivedrab;
+}
+
+.navbar {
+    top: 0;
+    z-index: 999;
+    height: auto;
+}
+
+.navbar-menu {
+    font-weight: bold;
+}
+
+.nav-link {
+    font-family: "Gowun Dodum", serif;
+}
+
+.link-button {
+    background-color: #f39c12;
+    color: #fff;
+    margin-left: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-family: "Gowun Dodum", serif;
+}
+
+.link-button:hover {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        height: 80px;
+    }
+
+    .navbar-brand-fixed {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+img {
+    object-fit: contain;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+#header {
+    width: 100%;
+    color: rgb(13, 12, 12);
+    text-align: center;
+    font-family: "Tangerine", serif;
+    /* position: absolute;
+    top: 0; */
+    height: 80px;
+    margin-top: 20px;
+}
+
+#title {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.carousel-caption {
+    font-family: "El Messiri", serif;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f39c12;
+}
+
+#footer-links {
+    margin: 10px auto;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-link a {
+    color: #5C4033;
+    font-size: 20px;
+}
+
+.footer-link i{
+    /* width: 20px;
+    height: 20px; */
+}
