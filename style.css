@@ -25,7 +25,7 @@ body {
     font-family: "Gowun Dodum", serif;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: olivedrab;
 }
 
@@ -120,7 +120,8 @@ img {
     font-size: 24px;
 }
 
-.footer-link i {
-    /* width: 20px;
-    height: 20px; */
+#content {
+    margin-top: 90px;
+    padding: 15px;
+    text-align: center;
 }

@@ -5,7 +5,7 @@ window.isMobile = function () {
 };
 
 if (!window.isMobile()) {
-    $("#location-link").attr("href", "./location/");
-    $("#phone-link").attr("href", "./contact/#phone");
-    $("#email-link").attr("href", "./contact/#email");
+    $("#location-link").attr("href", "https://www.google.com/maps/dir//1222+Glendon+Way,+Cary,+NC+27519");
+    $("#phone-link").attr("href", "tel:+19195930482");
+    $("#email-link").attr("href", "mailto:suaadz2016@gmail.com");
 }
