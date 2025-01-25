@@ -55,6 +55,10 @@ body {
         left: 50%;
         transform: translateX(-50%);
     }
+
+    #content {
+        margin-top: 90px;
+    }
 }
 
 img {
@@ -121,7 +125,7 @@ img {
 }
 
 #content {
-    margin-top: 90px;
+    margin-top: 180px;
     padding: 15px;
     text-align: center;
 }
